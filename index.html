@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ANIMATION</title>
+<link rel="stylesheet" href="style.css"/> </head>
+<script
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+
+$("#btn1").click(function(){
+
+$("#box1").animate({height: "300px"});
+
+$("#box2").animate({height: "300px"})
+
+});
+
+$("#btn2").click(function(){
+
+$("#box1").animate({height: "100px"});
+
+$("#box2").animate({height: "100px"})
+
+});
+
+$("#btn3").click(function(){
+$("#box1").animate({width: "800px"});
+
+$("#box2").animate({width: "800px"})
+
+});
+
+$("#btn4").click(function(){
+
+$("#box1").animate({width: "500px"});
+
+$("#box2").animate({width: "500px"});
+
+});
+
+$("#btn5").click(function(){
+
+$("#box1").fadeTo(1000, 0.4);
+
+$("#box2").fadeTo(1000, 0.4);
+
+});
+
+$("#btn6").click(function(){
+
+$("#box1").fadeToggle("1000");
+
+$("#box2").fadeToggle("1000");
+
+});
+
+$("#btn7").click(function(){
+
+$("#box1").hide(2000);
+
+$("#box2").hide(2000);
+
+});
+
+$("#btn8").click(function(){
+
+$("#box1").show(2000);
+ 
+$("#box2").show(2000);
+
+});
+
+});
+</script>
+</head>
+<body>
+<button id="btn1">Animate height</button> <button id="btn2">Reset height</button> <button id="btn3">Animate width</button> <button id="btn4">Reset width</button> <button id="btn5">Fade to</button> <button id="btn6">Fade in/out</button> <button id="btn7">Hide</button> <button id="btn8">Show</button>
+<div class="box" id="box1">
+<p>
+Football, also called association football or soccer, game in which two teams of 11 players, using any part of their bodies except their hands and arms, try to maneuver the ball into the opposing team’s goal.
+</div>
+</div>
+<div class="box1" id="box2">
+<p>
+ Only the goalkeeper is permitted to handle the ball and may do so only within the penalty area surrounding the goal. The team that scores more goals wins.</p>
+<br>
+</div>
+</body>
+</html>

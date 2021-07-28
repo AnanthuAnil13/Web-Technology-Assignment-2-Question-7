@@ -1,0 +1,17 @@
+body {
+	font-family: Verdana, sans-serif;
+}
+
+.box{
+	background-color: rgb(255, 131, 131);
+	width: 500px;
+	padding: 50px;
+	margin: 20px;
+}
+
+.box1{
+	width:500px;
+	padding: 50px;
+	margin: 20px;
+	background-color:rgb(105, 138, 199);
+}
